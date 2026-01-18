@@ -5,12 +5,30 @@
     margin: 0 auto;
 }
 .baner{
-    background-image: url(./images/banner.png);
+    background-image: url(./images/banner.pn);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
+    
 }
 .card:hover{
     background: linear-gradient(rgba(243, 243, 243, 1),rgba(243, 243, 243, 0));
+}
+.section-heading{
+    text-align: center;
+    max-width: 715px;
+    margin: 50px auto;
+}
+.section-heading h2{
+    font-size: 40px;
+    color: #414040;
+    margin-bottom: 20px;
+}
+.section-heading p{
+    font-size: 16px;
+    color: #707070;
+}
+.contuct-input *{
+    border-radius: 10px;
 }

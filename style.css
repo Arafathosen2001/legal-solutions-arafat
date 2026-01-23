@@ -32,3 +32,21 @@
 .contuct-input *{
     border-radius: 10px;
 }
+
+
+
+
+
+
+
+.icon {
+  transition: transform 0.3s;
+}
+
+/* open হলে + / − change */
+details[open] .icon {
+  transform: rotate(90deg);
+}
+
+
+

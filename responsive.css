@@ -1,0 +1,25 @@
+@media screen and (max-width:574px) {
+    .menu,
+    .free-button{
+        display: none;
+    }
+    .m-button{
+        display: block;
+    }
+    /* bennar */
+    .con{
+        padding: 50px;
+        
+    }
+    .con h2{
+        font-size: 24px;
+    }
+    .banner-btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-btn input{
+        padding: 0;
+    }
+    
+}

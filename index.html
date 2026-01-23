@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
     <title>Legal Solutions</title>
 </head>
 <body class="">
@@ -27,17 +28,20 @@
                 <div class="free-button">
                     <button class="btnhov bg-[#B68C5A] text-white py-4 px-3 rounded-2xl cursor-pointer">Free Consultation</button>
                 </div>
+                <div class="m-button text-3xl hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
         </div>
     </header>
-    <section class="banner pb-16">
+    <section class="banner pb-16 ">
         <div class="container">
             <div class="bane relative text-center">
                 <img class="w-full" src="./images/banner.png" alt="">
                 <div class="con absolute inset-0 py-48 px-52 bg-linear-to-t from-[#171717cb] to-[#171717cb]">
                     <h2 class="font-extrabold text-7xl text-white mb-5">We Provide Effective Legal Solutions</h2>
                     <p class="text-[#E7E7E7] mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                    <div class="flex gap-2.5 justify-center">
+                    <div class="banner-btn flex gap-2.5 justify-center absolute bottom-3 left-[50%]">
                         <input class="border-2 bg-white py-4.5 px-32 rounded-2xl pl-3 text-[#B68C5A]" type="text" name="" id="" placeholder="Search your services">
                         <input class="btnhov cursor-pointer bg-[#B68C5A] py-4.5 px-12 rounded-2xl text-white " type="submit" name="" id="">
                     </div>
@@ -45,7 +49,7 @@
             </div>
         </div>
     </section>
-    <section class="pb-16">
+    <section class="pb-16 hidden">
         <div class="container">
             <div class="section-heading">
                 <h2 class="">The Legal Practice Area</h2>
@@ -92,7 +96,7 @@
             </div>
         </div>
     </section>
-    <section id="client-say pb-16">
+    <section id="client-say" class="pb-16 hidden">
         <div class="container">
             <div class="section-heading">
                 <h2>What Our Client Say</h2>
@@ -113,7 +117,7 @@
         </div>
     </section>
 
-    <section class="faq">
+    <section class="faq hidden">
         <div class="container">
             <div class="section-heading">
             <h2>Frequently Asked Any Questions</h2>
@@ -174,7 +178,7 @@
 1   </section>
 
 
-    <section id="contuct-us" class="pb-16">
+    <section id="contuct-us" class="pb-16 hidden">
         <div class="container">
             <div class="section-heading">
                 <h2>Contact With Us</h2>
@@ -215,7 +219,7 @@
     </section>
 
 
-    <footer class="bg-black py-28 text-white">
+    <footer class="bg-black py-28 text-white hidden">
         <div class="container">
             <div class="fot-con grid grid-cols-4 gap-20">
                 <div class="logo">

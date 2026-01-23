@@ -4,6 +4,10 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+.btnhov:hover{
+    background: #dba25d;
+    
+}
 .baner{
     background-image: url(./images/banner.pn);
     background-size: cover;

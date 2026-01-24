@@ -1,4 +1,43 @@
-@media screen and (max-width:574px) {
+@media screen and (max-width:1080px) {
+    .container{
+    width: 85%;
+    }
+    nav{
+        gap:20px;
+    }
+    nav li{
+        padding: 16px 12px;
+    }
+    /* bennar */
+    .con{
+        padding: 50px 50px;
+        
+    }
+    .con h2{
+        font-size: 48px;
+    }
+        /* legal-card */
+    
+    .card{
+        padding: 10px 0;
+    }
+    .inpt{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .inpt input,
+    button{
+        padding: 10px 0;
+        margin: 0;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width:768px) {
+    .container{
+    width: 95%;
+    }
     .menu,
     .free-button{
         display: none;
@@ -8,7 +47,68 @@
     }
     /* bennar */
     .con{
-        padding: 50px;
+        padding: 100px 10px;
+        
+    }
+    .con h2{
+        font-size: 34px;
+    }
+    .banner-btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-btn input{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    .bane{
+    background-size:100% 100%;
+    }
+    /* legal-card */
+    .legal-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .card{
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000;
+        padding: 10px;
+    }
+    /* questions-area */
+    .questions-area{
+        flex-direction: column-reverse;
+    }
+    .main-question{
+        max-width: 100%;
+        width: 100%;
+    }
+        .main-content{
+        gap: 20px;
+    }
+        .contuct-card{
+        gap: 20px;
+    }
+    .fot-con{
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    
+}
+@media screen and (max-width:574px) {
+        .container{
+        width: 95%;
+    }
+    .menu,
+    .free-button{
+        display: none;
+    }
+    .m-button{
+        display: block;
+    }
+    /* bennar */
+    .con{
+        padding: 10px;
         
     }
     .con h2{
@@ -19,7 +119,59 @@
         align-items: center;
     }
     .banner-btn input{
-        padding: 0;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+    .bane{
+    background-size:100% 100%;
+    border-radius: 15px;
+    }
+    /* legal-card */
+    .legal-card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000;
+        padding: 10px;
+    }
+    /* questions-area */
+    .questions-area{
+        flex-direction: column-reverse;
+    }
+    .main-question{
+        max-width: 100%;
+        width: 100%;
+    }
+    summary{
+        font-size: 18px;
+    }
+    /* contuct-us */
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contuct-card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fot-con{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .logo img{
+        margin: 10px auto;
+    }
+    .inpt button{
+        margin: 0 10px;
     }
     
 }

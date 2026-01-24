@@ -8,13 +8,12 @@
     background: #dba25d;
     
 }
-.baner{
-    background-image: url(./images/banner.pn);
+.bane{
+    background-image: url(./images/banner.png),linear-gradient(#171717cb,#171717cb);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
-    
 }
 .card:hover{
     background: linear-gradient(rgba(243, 243, 243, 1),rgba(243, 243, 243, 0));
@@ -36,20 +35,18 @@
 .contuct-input *{
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-.icon {
-  transition: transform 0.3s;
+.icon i{
+  transition: transform 0.5s;
 }
 
 /* open হলে + / − change */
-details[open] .icon {
+details[open] .icon i{
   transform: rotate(90deg);
+}
+
+.con{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 
